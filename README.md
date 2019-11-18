@@ -2,6 +2,8 @@
 
 ## Data Structures and Algorithms in c++
 
+Following tab : 4 spaces
+
 Each sub folder has implementation with applications
 
 All the starter files in each end sub folder has base file to start with.
