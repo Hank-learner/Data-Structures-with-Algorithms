@@ -24,7 +24,7 @@ int main()
     Node* second = NULL; 
     Node* third = NULL; 
   
-    // allocate 3 nodes in the heap 
+    // allocate 3 nodes(memory) in the heap
     head = new Node(); 
     second = new Node(); 
     third = new Node(); 
@@ -33,10 +33,10 @@ int main()
     head->next = second; // Link first node with second 
   
     second->data = 2; // assign data to second node 
-    second->next = third; 
+    second->next = third;  // Link second node with third
   
     third->data = 3; // assign data to third node 
-    third->next = NULL; 
+    third->next = NULL;  // Link third node with NUll
   
     printList(&head);
   
