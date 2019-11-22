@@ -14,6 +14,8 @@ All the starter files in each end sub folder has base file to start with.
 > >
 > > > stack_functions_base.cpp
 > > >
+> > > Appn1.Nqueen_problem.cpp
+> > >
 > >
 > > #### Queue
 > >
@@ -38,44 +40,50 @@ All the starter files in each end sub folder has base file to start with.
 > > >
 > > > graph_using_adjacency_list_representation_base.cpp
 > > >
+> > > transitive_closure_graph.cpp
+> > >
 > >
 >
 > ### Algorithms
 >
 > > #### Sorting of 1-d array
 > >
-> > > bubble_sort.cpp
+> > > bubble_sort_numbers.cpp
 > > >
-> > > selection_sort.cpp
+> > > selection_sort_numbers.cpp
 > > >
-> > > insertion_sort.cpp
+> > > insertion_sort_numbers.cpp
 > > >
-> > > heap_sort.cpp
+> > > heap_sort_numbers.cpp
 > > >
-> > > merge_sort.cpp
+> > > merge_sort_numbers.cpp
 > > >
-> > > quick_sort.cpp
+> > > quick_sort_numbers.cpp
+> > >
+> > > counting_sort_numbers.cpp
+> > >
+> > > radix_sort_numbers.cpp
 > >
 > > #### Sorting of 2-d array
 > >
-> > > bubble_sort.cpp
+> > > bubble_sort_numbers.cpp
 > > >
-> > > selection_sort.cpp
+> > > selection_sort_numbers.cpp
 > > >
-> > > insertion_sort.cpp
+> > > insertion_sort_numbers.cpp
 > > >
-> > > heap_sort.cpp
+> > > heap_sort_numbers.cpp
 > > >
-> > > merge_sort.cpp
+> > > merge_sort_numbers.cpp
 > > >
-> > > quick_sort.cpp
+> > > quick_sort_numbers.cpp
 > > >
 > >
 >
 
 ### Folder structure
 
-```
+```json
 Data-Structures-with-Algorithms
 │   README.md
 │   index.html
@@ -90,6 +98,7 @@ Data-Structures-with-Algorithms
 │   |   |
 │   |   |   README.md
 │   |   │   stack_functions_base.cpp
+│   |   │   Appn1.Nqueen_problem.cpp
 │   |  
 │   └───Queue
 │   |   |
@@ -112,6 +121,7 @@ Data-Structures-with-Algorithms
 │   |   |   README.md
 │   │   |   graph_using_array_representation_base.cpp
 │   │   |   graph_using_adjacency_list_representation_base.cpp
+│   |   |   transitive_closure_graph.cpp
 │   │
 │
 └───Algorithms
@@ -121,22 +131,24 @@ Data-Structures-with-Algorithms
 │   └───Sorting of 1-d array
 │   |   |
 │   |   |   README.md
-│   |   │   bubble_sort.cpp
-│   |   │   selection_sort.cpp
-│   │   │   insertion_sort.cpp
-│   |   │   heap_sort.cpp
-│   |   │   merge_sort.cpp
-│   |   │   quick_sort.cpp
+│   |   │   bubble_sort_numbers.cpp
+│   |   │   selection_sort_numbers.cpp
+│   │   │   insertion_sort_numbers.cpp
+│   |   │   heap_sort_numbers.cpp
+│   |   │   merge_sort_numbers.cpp
+│   |   │   quick_sort_numbers.cpp
+│   |   │   counting_sort_numbers.cpp
+│   |   │   radix_sort_numbers.cpp
 │   │
 │   └───Sorting of 2-d array
 │   |   |
 │   |   |   README.md
-│   |   │   bubble_sort.cpp
-│   |   │   selection_sort.cpp
-│   │   │   insertion_sort.cpp
-│   |   │   heap_sort.cpp
-│   |   │   merge_sort.cpp
-│   |   │   quick_sort.cpp
+│   |   │   bubble_sort_numbers.cpp
+│   |   │   selection_sort_numbers.cpp
+│   │   │   insertion_sort_numbers.cpp
+│   |   │   heap_sort_numbers.cpp
+│   |   │   merge_sort_numbers.cpp
+│   |   │   quick_sort_numbers.cpp
 │   |
 │
 ```
