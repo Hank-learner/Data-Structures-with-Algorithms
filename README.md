@@ -8,6 +8,10 @@ Each sub folder has implementation with applications
 
 All the starter files in each end sub folder has base file to start with.
 
+The filename ending with "base" is the main intro file to each datastructure
+
+The filename starting in "App" are the applications to each datastructure
+
 > ### Data Structures
 >
 > > #### Stack
@@ -40,7 +44,13 @@ All the starter files in each end sub folder has base file to start with.
 > > >
 > > > graph_using_adjacency_list_representation_base.cpp
 > > >
-> > > transitive_closure_graph.cpp
+> > > App1.transitive_closure_graph.cpp
+> > >
+> > > App2.warshall_nonweighted.cpp
+> > >
+> > > App3.warshall_weighted.cpp
+> > >
+> > > App4.bfs_dfs.cpp
 > > >
 > >
 >
@@ -121,7 +131,10 @@ Data-Structures-with-Algorithms
 │   |   |   README.md
 │   │   |   graph_using_array_representation_base.cpp
 │   │   |   graph_using_adjacency_list_representation_base.cpp
-│   |   |   transitive_closure_graph.cpp
+│   |   |   App1.transitive_closure_graph.cpp
+│   |   |   App2.warshall_nonweighted.cpp
+│   |   |   App3.warshall_weighted.cpp
+│   |   |   App4.bfs_dfs.cpp
 │   │
 │
 └───Algorithms
