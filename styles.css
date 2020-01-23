@@ -397,3 +397,36 @@ body {
         padding: 2%;
     }
 }
+
+
+.footer {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    padding-bottom: 120px;
+    padding-top: 90px;
+    color: #868991;
+    font-family: Graphik, Helvetica, sans-serif;
+    background-color: #000;
+    color: #9b9b9b;
+    font-size: 12px;
+    -webkit-font-smoothing: auto;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+
+}
+
+article,
+aside,
+footer,
+section {
+    display: block;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
