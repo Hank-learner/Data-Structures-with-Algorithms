@@ -3,8 +3,7 @@
 #define N 8
 int board[N][N];
 
-bool safety(int row, int col){
-
+bool safety(int row, int col) {
     int i, j;
     for (i = 0; i < col; i++)
         if (board[row][i])
@@ -20,43 +19,37 @@ bool safety(int row, int col){
 
     return true;
 }
-  
-bool queenposition(int col)
-{
+
+bool queenposition(int col) {
     if (col >= N)
         return true;
 
     for (int i = 0; i < N; i++) {
         if (safety(i, col)) {
-            board[i][col] = 1; 
-            if (queenposition( col + 1)) 
-                return true; 
+            board[i][col] = 1;
+            if (queenposition(col + 1))
+                return true;
             board[i][col] = 0;
         }
     }
     return false;
 }
-  
-int main(){
 
-    for (int i = 0; i < N; i++) 
-    {
-        for (int j = 0; j < N; j++)
-        {
+int main() {
+    for (int i = 0; i < N; i++) {
+        for (int j = 0; j < N; j++) {
             board[i][j] = 0;
         }
     }
-    
+
     queenposition(0);
 
     printf("the Queens can be placed on 1's like : \n");
-    for (int i = 0; i < N; i++) 
-    { 
-        for (int j = 0; j < N; j++) 
-            printf(" %d ", board[i][j]); 
-        printf("\n"); 
+    for (int i = 0; i < N; i++) {
+        for (int j = 0; j < N; j++)
+            printf(" %d ", board[i][j]);
+        printf("\n");
     }
 
     return 0;
-} 
-
+}
